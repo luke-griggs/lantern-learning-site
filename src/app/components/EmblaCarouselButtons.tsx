@@ -62,7 +62,7 @@ import React, {
       <button
         {...restProps}
         className={`flex items-center justify-center w-14 h-14 rounded-full bg-transparent 
-                    hover:bg-gray-300 disabled:text-gray-400 disabled:cursor-not-allowed
+                    duration-300 hover:bg-[#fff3da] disabled:text-gray-400 disabled:cursor-not-allowed
                     focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500`}
         type="button"
         style={{
@@ -81,7 +81,7 @@ import React, {
       <button
         {...restProps}
         className={`flex items-center justify-center w-14 h-14 rounded-full bg-transparent 
-                    hover:bg-gray-300 disabled:text-gray-400 disabled:cursor-not-allowed
+                    duration-300 hover:bg-[#fff3da] disabled:text-gray-400 disabled:cursor-not-allowed
                     focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500`}
         type="button"
         style={{
