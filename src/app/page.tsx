@@ -23,8 +23,8 @@ export default function Home() {
 
   const SLIDES = [
     { name: "Joel S.", review: "Luke enabled our son to follow along better in the classroom and overall boosted his confidence in geometry", key: 1 },
-    { name: "billy boy", review: "great", key: 2 },
-    { name: "larry", review: "excellent", key: 3 },
+    { name: "Anastasiya K.", review: "I am confident in continuing to use and recommend Luke's services to any parent who is looking for additional help for their child to learn and will be there to support them! ", key: 2 },
+    { name: "Ada S.", review: "Luke has been working with my two children for the past few months, and the improvement in their grades and understanding of the subjects has been remarkable. Highly recommend!", key: 3 },
   ];
 
   useEffect(() => {
@@ -55,9 +55,11 @@ export default function Home() {
                   Book a Session
                 </button>
               </a>
+              <a href="#info">
               <button className="text-md font-semibold text-[#30231B] duration-300 hover:text-[#62564F]">
                 Learn more
               </button>
+              </a>
             </div>
           </div>
           <div className="hidden lg:block max-w-[620px]">
@@ -66,13 +68,13 @@ export default function Home() {
         </div>
         
       </main>
-      <div className="h-6 w-full bg-[#fff6e3]"></div>
+      <div className="h-6 w-full bg-[#fff6e3]" id="info"></div>
       <div className="text-center sm:text-left w-full h-auto bg-white p-10 px-16 py-28">
         <div className=" flex flex-col text-[#30231B]">
           <h1 className="text-5xl font-semibold pb-1" data-aos="fade-up" data-aos-anchor-placement="top-bottom"> Why Lantern? </h1>
           <p className="hidden sm:block text-sm md:text-lg pt-4 max-w-5xl" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             {" "}
-            Lantern Learning was founded on the belief that learning should never feel like a losing battle. That's why we assembled a team of students from top universities to guide learners through innovative thinking methods, helping them achieve their goals.
+            Lantern Learning was founded on the belief that learning should never feel like a losing battle. That&apos;s why we assembled a team of students from top universities to guide learners through innovative thinking methods, helping them achieve their goals.
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-16 mt-20">
@@ -84,7 +86,7 @@ export default function Home() {
             </h1>
             <p className="max-w-[350px]">
               {" "}
-              We understand that every student is different. That's why we
+              We understand that every student is different. That&apos;s why we
               tailor our tutoring sessions to fit the needs of each student.{" "}
             </p>
           </div>
@@ -97,7 +99,7 @@ export default function Home() {
             </h1>
             <p className="max-w-[350px]">
               {" "}
-              Our tutors are students from top universities who know exactly what it's like to not understand something.{" "}
+              Our tutors are students from top universities who know exactly what it&apos;s like to not understand something.{" "}
             </p>
           </div>
           <div className="flex flex-col border-t-8 mt-6 md:mt-0 border-[#FF893F] items-center sm:items-start" data-aos="fade-left" data-aos-offset="300">
@@ -109,7 +111,7 @@ export default function Home() {
             </h1>
             <p className="max-w-[350px]">
               {" "}
-              We know that students have busy schedules. That's why we offer
+              We know that students have busy schedules. That&apos;s why we offer
               flexible scheduling to fit your needs.{" "}
             </p>
           </div>

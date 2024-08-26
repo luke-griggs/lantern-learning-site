@@ -22,7 +22,7 @@ type PropType = {
 };
 
 const EmblaCarousel: React.FC<PropType> = ({ slides, options }) => {
-  const autoplayOptions = { delay: 6000, stopOnInteraction: true };
+  const autoplayOptions = { delay: 7000, stopOnInteraction: true };
   const [emblaRef, emblaApi] = useEmblaCarousel(options, [
     Autoplay(autoplayOptions),
   ]);
@@ -54,7 +54,7 @@ const EmblaCarousel: React.FC<PropType> = ({ slides, options }) => {
               key={testimonial.key}
             >
               <div className="flex items-center justify-center h-76 text-3xl font-medium font-serif user-select-none pl-3 text-center leading-tight">
-                "{testimonial.review}"
+                &quot;{testimonial.review}&quot;
               </div>
               <div className="pt-6 flex items-center justify-center h-76 text-2xl font-semibold user-select-none">
                 - {testimonial.name}

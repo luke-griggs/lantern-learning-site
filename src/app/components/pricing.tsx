@@ -126,13 +126,14 @@ const Pricing = () => {
               <li key={index}>{feature}</li>
             ))}
           </ul>
-          <a href={option.link} target="_blank" id="testimonials"
+          <a href={option.link} target="_blank"
           >
-            <button className="mt-6 bg-[#FF893F] duration-300 hover:bg-orange-500 hover:-translate-y-1 text-white font-bold py-2 px-4 rounded">
+            <button  className="mt-6 bg-[#FF893F] duration-300 hover:bg-orange-500 hover:-translate-y-1 text-white font-bold py-2 px-4 rounded">
               {option.price === "$0" ? "Start for Free" : "Book a Session"}
             </button>
           </a>
         </div>
+        <div id="testimonials"></div>
       </div>
     </>
   );
