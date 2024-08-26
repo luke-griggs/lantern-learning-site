@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between h-18 px-6 bg-[#fffbf3] shadow-md rounded-b-xl duration-300">
         <div className="flex items-center p-1 pt-2">
           <a href="">
-            <img src="Lantern-logo.png" alt="" className="w-16 h-16 pb-2"></img>
+            <img src="lantern-logo.png" alt="" className="w-16 h-16 pb-2"></img>
           </a>
           <a href="">
             <h1 className="font-bold text-2xl text-[#30231B]">Lantern Learning</h1>
