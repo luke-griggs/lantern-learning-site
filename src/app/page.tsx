@@ -63,7 +63,7 @@ export default function Home() {
             </div>
           </div>
           <div className="hidden lg:block max-w-[620px]">
-            <Image src="/lantern-landing.png" width="620" height="620" alt=""></Image>
+            <img src="Lantern-landing.png" alt="" className="w-620 h-auto"></img>
           </div>
         </div>
         
