@@ -57,10 +57,13 @@ export default function Home() {
               </a>
               <a href="#info">
               <button className="text-md font-semibold text-[#30231B] duration-300 hover:text-[#62564F]">
-                Learn more
+                learn more
               </button>
               </a>
             </div>
+        <div className="mt-2">
+        click <span className="text-[#FF893F]"><a href="https://forms.gle/TQ1rVWJaZ83rLP817">here</a></span> to opt in to SMS notifications
+        </div>
           </div>
           <div className="hidden lg:block max-w-[620px]">
             <img src="Lantern-landing.png" alt="" className="w-620 h-auto"></img>
